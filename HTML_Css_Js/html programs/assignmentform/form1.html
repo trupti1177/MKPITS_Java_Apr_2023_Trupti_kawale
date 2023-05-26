@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px solid black;
+        }
+        input,textarea,select{
+            border: 2px solid pink;
+        }
+        th{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border cellspacing="1" cellpadding="8" align="center" >
+        <tr>
+            <th colspan="3">STUDENT REGISTRATION FORM</th>
+            <tr>
+                <td>
+                    <label for="">First Name</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your first name">
+                </td>
+            </tr>
+        <tr>
+            <td>
+                <label for="">Last Name</label>
+            </td>
+            <td>
+                <input type="text" placeholder="Enter your last name">
+            </td>
+            <tr>
+                <td>
+                    <label for="">Gender</label>
+                </td>
+                <td>
+                    <label for="">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="">Female</label>
+                    <input type="radio" name="gender" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Age</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" placeholder="dd-mm-yyyy">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email ID</label>
+                </td>
+                <td>
+                    <input type="email" id="Email" placeholder="Enter your email" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Password</label>
+                </td>
+                <td>
+                    <input type="number" min="8" placeholder="Enter your Password min 8 characters">
+                </td>
+        <tr>
+            <tr>
+                <td>
+                    <label for="">Confirm Password</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Confirm Password">
+                </td>
+                <tr>
+                    <tr>
+                        <td>
+                            <label for="">Phone Number</label>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="Enter your phone number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Address</label>
+                        </td>
+                        <td>
+                            <textarea cols="20" rows="5" placeholder="Enter your address"></textarea>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">State</label>
+                        </td>
+                        <td>
+                             <select>
+                                <option value="select state"  selected>-- select state --</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Chattisgarh">Chattisgarh</option>
+                                <option value="Goa">Goa</option>
+                             </select>  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Pincode</label>
+                        </td>
+                        <td>
+                            <input type="number"id="Pincode" placeholder="Enter your pincode">
+                        </td>
+                    </tr>
+                    <tr>
+                    
+                
+                    <td>
+                        <label for="Hobbies">Hobbies</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Hobbies">
+                        <label for="Hobbies">Music</label>
+                        <input type="checkbox" id="Hobbies">
+                        <label for="Hobbies">Dancing</label>
+                        <input type="checkbox" id="Hobbies">
+                        <label for="Hobbies">Painting</label>
+                        <input type="checkbox" id="Hobbies">
+                        <label for="Hobbies">Reading</label>
+                    </td>
+                    <tr>
+                        <td>
+                            <label for="photo">Upload photo</label>
+                        </td>
+                        <td>
+                            <input type="file" id="photo">
+                        </td>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="submit">
+                                <input type="Reset" value="Reset">
+                            </td>
+                        </tr>
+                    </tr>
+        </table>
+</body>
+</html>

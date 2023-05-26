@@ -1,0 +1,22 @@
+.a{
+    height: 50%;
+    width: 50px;
+    border-top: 2px dotted blue;
+    border-bottom: 2px;
+}
+.b{ border: 5px double red;
+    border-style: dashed;
+     border-right: 5px solid green;
+}
+.c{
+   height: 50%;
+   width: 50px;
+   border-top: 2px solid blue;
+   border-top-left-radius: 10px;
+   border-radius: 10px;
+   
+}
+.d{
+    border-top-left-radius: 10px;
+    border-radius: 50%;
+}

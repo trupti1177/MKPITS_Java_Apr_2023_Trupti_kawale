@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+	<head>
+		<title> form1</title>
+		<style >
+			table{
+		}
+			input,textarea,select{
+				border: 2px solid black;
+			}
+			label{
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<table width="60%" align="center" >
+			<tr>
+
+		    <th><h3 align="center">STUDENT REGISTRATION FORM</h3></th>
+	        </tr>
+	        <tr>
+	        	<td> <label>Full name</label></td>
+		        <td><input type="text" placeholder="enter your name"></td>
+		    </tr>
+		    <tr>
+		    	<td><label>Last Name</label></td>
+		         <td><input type="text" placeholder="enter your last name"></td>
+		     </tr>
+		     <tr>
+			<td><label>Gender</label></td>
+			<td><input type="radio" name="gender">Male &nbsp;
+				<input type="radio" name="gender">Female			
+			</td>
+			<tr>
+		    	<td><label>Age</label></td>
+		         <td><input type="text" placeholder="enter your age"></td>
+		     </tr>
+		     <tr>
+		    	<td><label>Date of Birth</label></td>
+		         <td><input type="date"></td>
+		     </tr>
+		     <tr>
+		    	<td><label>Password</label></td>
+		         <td><input type="text" placeholder="enter your Password"></td>
+		     </tr>
+		      <tr>
+		    	<td><label>Confirm Password</label></td>
+		         <td><input type="text" placeholder="confirm Password"></td>
+		     </tr>
+		     <tr>
+		    	<td><label>phone number</label></td>
+		         <td><input type="number" placeholder="enter your phone number"></td>
+		     </tr>
+		     <tr>
+		    	<td><label>Address</label></td>
+		    	<td><textarea rows="3"></textarea></td>                                                                                               
+		     </tr>
+		     <tr>
+		    
+		    	<td>
+		    		<label for="dropbotton"> state</label>
+		    		<select  id="dropbotton" name="state">
+		    		<option value ="select state" selected >--select state--</option>
+		    		<option value = "Maharashtra">Maharashtra</option>
+		    		<option value = "Madhya pradesh">Madhya Pradesh</option>
+		    		<option value = "uttar Pradesh">Uttar Pradesh</option>
+		    		<option value = "Bihar">Bihar</option>
+		    		</select>
+		         </td>
+		     </tr>
+		     <tr>
+		    	<td><label>pin code</label></td>
+		        <td><input type="text" placeholder="enter your pin code"></td>
+		     </tr>
+		     <tr>
+		     	<td>
+		     		<label "hobbies">hobbies</label>
+		     	</td>
+		     	<td>
+		     	<input type="checkbox" id="hobbies">
+		     	
+		        <label "hobbies">music</label> &nbsp;
+                <input type="checkbox" id=hobbies">
+                <label "hobbies">Movies</label> &nbsp;
+                <input type="checkbox" id=hobbies">
+                <label "hobbies">Sports</label> &nbsp;
+                <input type="checkbox" id=hobbies">
+                <label "hobbies">Travel</label> &nbsp;
+            </td>
+            </tr>
+            <tr>
+            	<td><label = "photo ">upload photo</label></td>
+                <td><input type="File" id="photo"></td>
+            </tr>
+            <td align="center" colspan="2">
+            	<input type="submit" value="submit">
+            	<input type="Reset" value="Reset">
+            </td>
+   </table>
+</form>
+</body>
+</html>
