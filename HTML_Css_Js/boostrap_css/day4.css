@@ -1,0 +1,22 @@
+p { border: 4px solid black;
+    text-align: center;
+    color: red;
+  }
+  #para2 {
+    border-top-right-radius: 2px;
+    border: 4px grove red;
+    text-align:
+    color: black;
+  }
+  .center {
+    text-align: center;
+    color: blue;
+  }]
+  * {
+    text-align: center;
+    color: brown;
+  }
+  h1, h2, p {
+    text-align: center;
+    color: red;
+  }  
