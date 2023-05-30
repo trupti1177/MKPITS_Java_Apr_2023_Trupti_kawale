@@ -1,0 +1,27 @@
+h1{
+    text-align: center;    /* text-shadow: 5px 5px 2px red, 5px 2px 2px rgb(105, 0, 128);*/
+    
+}
+p{
+    /* box-shadow: 5px 2px 5px red; */
+    text-decoration: none;
+    /* when we give link to any text then it shows the dotted at the bottom of that text -->to remove that dotted line we use text-decoration: none; or to remove any decoraction we use text-decoration is none
+ */
+}
+.a{
+        text-shadow: 2px 0px red;
+        /* we give values in terms of x-axis and y-axis */
+}
+.b{
+        box-shadow: 3px 1px 3px rgb(155, 129, 65);
+}
+.c{
+        vertical-align: text-top;
+        /* this vertical align is for multimedia  */
+}
+.d{
+    color: blue;
+}
+.d:hover{
+        background-color: yellow;
+}

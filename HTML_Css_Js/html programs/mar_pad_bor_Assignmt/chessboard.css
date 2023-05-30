@@ -1,0 +1,15 @@
+.black{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+.white{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+
+}
+div{
+    display:flex;
+
+}

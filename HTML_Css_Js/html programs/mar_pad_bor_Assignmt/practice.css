@@ -1,0 +1,49 @@
+h1{
+    border: 2px solid brown;
+    background-color: rgba(88, 2, 2,0.3);
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow: 5px 5px  orange;
+}
+p{
+    position: relative;
+    top: 100px;
+    color:black;
+    text-align: justify;
+    text-indent: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 2px solid brown;
+
+}
+
+.para2{
+    text-indent: 100px;
+    border: 5px dotted rgb(212, 203, 205);
+    padding: 14px 22px;
+}
+.para2:hover{
+    font-size: 20px;
+    color: rgb(71, 8, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 5px solid rgb(73, 27, 8);
+
+}
+.para3{
+    border: 2px groove rgb(76, 6, 141)…
+    background-color:hsla(318, 72%, 31%, 0.4) ;
+    border-radius: 20px ;
+    padding: 12px 20px;
+}
+.div1{
+    hight:50%
+    width:50px;
+    border-top: 2px solid coral;
+    border-bottom : 2px dotted blue;
+    
+}

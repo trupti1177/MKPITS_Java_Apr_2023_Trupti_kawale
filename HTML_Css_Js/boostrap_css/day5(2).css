@@ -1,0 +1,70 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    font-size: xx-large;
+    border: 2px solid red;
+    border-radius: 5%;
+    background-color: yellow;
+    box-shadow: 4px 4px 4px rgb(12, 12, 12);
+}
+.box1:hover{
+    background-color: aqua;
+
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    font-size: xx-large;
+    margin-top: 100px;
+    border: 2px dotted red;
+    background-color: yellow;
+    box-shadow: 4px 4px 4px rgb(12, 12, 12);
+}
+.box2:hover{
+    background-color: aqua;
+
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    font-size: xx-large;
+    margin-top: 150px;
+    border: 2px dotted red;
+    background-color: yellow;
+    box-shadow: 4px 4px 4px rgb(12, 12, 12);
+}
+
+.box3:hover{
+    background-color: aqua;
+
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    font-size: xx-large;
+    margin-top: 180px;
+    border: 2px double red;
+    background-color: yellow;
+    box-shadow: 4px 4px 4px rgb(12, 12, 12);
+}
+.box4:hover{
+    background-color: aqua;
+
+}
+.box5{
+    height: 200px;
+    width: 200px;
+    font-size: xx-large;
+    margin-top: 200px;
+    border: 2px groove red;
+    background-color: yellow;
+    box-shadow: 4px 4px 4px rgb(12, 12, 12);
+}
+
+.box5:hover{
+    background-color: aqua;
+
+}
+.main{
+    display: flex;
+}
