@@ -1,0 +1,31 @@
+ul{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(214, 159, 103);
+
+}
+li{
+    display:inline-block;
+    padding: 20px;
+    
+}
+a{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 2px;
+    
+}
+a:hover{
+    background-color: blue;
+    padding: 10px;
+    border-bottom:5px solid red;
+    
+}
+img{
+    margin-right: 500px;
+    border-radius: 50%;
+}
