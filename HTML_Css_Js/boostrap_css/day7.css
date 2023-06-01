@@ -1,0 +1,47 @@
+ul{
+    background-color:rgb(214, 159, 103);
+    height: 100%;
+    width: 150px;
+    overflow: auto;
+    position: fixed;
+    text-align: left;
+    padding: 5px;
+
+    
+}
+li a{
+    display: blockpadding;
+     text-decoration: none;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius:12px;
+    font-size: 30px;
+    margin-top: 20px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(10, 0, 0);
+    margin-top: 50px;
+}
+
+
+li a:hover{
+    border:3px solid rgb(87, 42, 42) ;
+    color: blueviolet;
+}
+.active{
+    border:3px solid rgb(87, 42, 42) ;
+    color: yellow;
+}
+.aside-section{
+    margin-left: 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+

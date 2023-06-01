@@ -1,0 +1,35 @@
+ul{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(209, 164, 119);
+
+}
+li{
+    display:inline-block;
+    padding: 20px;
+    align-items: center;
+    
+}
+a{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+    padding: 2px;
+}
+a:visited{
+    color: brown;
+}
+
+a:active{
+    color: green;
+}
+a:hover{
+    background-color: aquamarine;
+    padding: 10px;
+}
+img{
+    margin-right: 500px
+    border-radius: 50%;
+}
