@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font font-weight: 500;
+    top: 200px;
+    left: 0;
+
+}
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: wheat;
+    justify-content: space-around;
+}
+.navbar ul{
+
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    
+}    
+.navbar ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-flex;
+    
+}
+
+   
