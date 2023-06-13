@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Example</title>
+</head>
+
+<body>
+    <form>
+        <!-- to create html form -->
+    </form>
+    <hr>
+    <form>
+        <label for="fname">Label Name</label>
+        <!-- label use for to give name....for use for to define input data -->
+        <input type="text" name="fname" id="fname">
+        <!-- type use for describe input type.....name & id use for provide unique name -->
+    </form><hr>
+    <h3>Radio Button</h3>
+    <form>
+        <h5>Select Gender</h5>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+    </form><hr>
+    <form>
+        <h3>Check box</h3>
+        <h5>Select Vehicle</h5>
+        <input type="checkbox" name="vehicle" id="hatchback" value="hatchback" checked="">
+        <label for="hatchback">Hatchback</label>
+        <input type="checkbox" name="vehicle" id="sedan" value="sedan">
+        <label for="sedan">Sedan</label>
+        <input type="checkbox" name="vehicle" id="suv" value="suv">
+        <label for="suv">Suv</label>
+    </form><hr>
+    <h3>Input Type</h3>
+    <dl>
+        <dt>input</dt>
+        <dd><input type="" name="" id=""></dd>
+
+        <dt>label</dt>
+        <dd> <label for="">Enter Name:</label> </dd>
+
+        <dt> Select</dt>
+        <dd> 
+            <select id="year" name="year">
+                <option>Select</option>
+                <option value="first">First Year</option>
+                <option value="second">Second Year</option>
+                <option value="third">Third Year</option>
+            </select> 
+        </dd>
+
+        <dt>Textarea</dt>
+        <dd> <textarea name="address" cols="10" rows="5"></textarea> </dd>
+
+        <dt>Button</dt>
+        <dd> <button type="button" onclick="alert('you are selected')">Click Here</button> </dd>
+
+        <dt>Feildset & legend</dt>
+        <dd> 
+            <fieldset>
+                <legend>Section A</legend>
+                <label>Enter Name</label>
+                <input type="text" name="">
+                <hr>
+                <input type="submit" name="" value="submit">
+            </fieldset> 
+            <fieldset>
+                <legend>Section B</legend>
+                <label>Enter Name</label>
+                <input type="text" name="">
+                <hr>
+                <input type="reset" name="" value="reset">
+            </fieldset>
+        </dd>
+
+        <dt>Datalist</dt>
+        <dd> 
+            <form method="" action="action_page.php">
+                <input list="section" name="section">
+                     <datalist>
+                         <option value="a">A</option>
+                         <option>B</option>
+                         <option>C</option>
+                         <option>D</option>
+                     </datalist>
+            </form>
+        </dd>
+
+        <dt>Output</dt>
+        <dd>
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" name="a" id="a" value="50"><br>
+                20 + <input type="number" name="b" id="b" value="50">
+                = <output name="c" for="a b"></output>
+            </form>
+        </dd>
+
+        <dt>optgroup</dt>
+        <dd>
+            <label>Choose Package</label>
+            <select name="package" id="package">
+                <option>Choose here</option>
+                <optgroup label="starter">
+        
