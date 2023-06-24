@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="div"> </p>
+    <button onclick="add()">Click</button>
+    
+     
+     <button onclick="sub()">Click</button> 
+
+    <button onclick="mul()">Click</button>  
+
+    <button onclick="divi()">Click</button> 
+
+    <button onclick="modulus()">modulus</button>
+
+    <button onclick="fullname()">full name </button>
+
+    </body>  
+        
+   
+    <script>
+       let x =10;
+        let y=10;
+        let firstname="abhishek";
+        let lastname="satale";
+    
+    function add(){
+            let z= x+y;
+            
+       document.getElementById("div").innerHTML=z;
+    }
+       function sub(){
+        let Z=x-y;
+        document.getElementById("div").innerHTML=Z;
+       }
+
+       function mul(){
+        let z=x*y;
+        document.getElementById("div").innerHTML=z;
+       }
+
+       function divi(){
+        let z=x/y;
+        document.getElementById("div").innerHTML=z;
+       }
+       
+       function modulus(){
+        let z=x%y;
+        document.getElementById("div").innerHTML=z;
+       }
+
+       function fullname(){
+        z=firstname+" "+lastname;
+        document.getElementById("div").innerHTML=z;
+       }
+    </script>
+</body>
+</html>
