@@ -1,0 +1,31 @@
+ul li {
+    padding-left: 80px;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 100px;
+    background-color: rgb(133, 149, 238);
+    
+}
+h4{
+    text-align: center;
+   padding: 20px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    background-color: rgb(238, 238, 197);
+}
+.col img{
+    padding-bottom: 20px;
+}
+#services{
+    background-color: rgb(211, 231, 164);
+}
+.card{
+    padding-bottom: 20px;
+}

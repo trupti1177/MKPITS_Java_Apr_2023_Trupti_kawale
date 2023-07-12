@@ -1,0 +1,9 @@
+.h1 {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 13%, rgba(253,187,45,1) 100%);
+
+}
+.h2 {
+    background: rgb(118,115,164);
+background: radial-gradient(circle, rgba(118,115,164,1) 0%, rgba(121,9,103,0.7399334733893557) 35%, rgba(255,0,52,0.773546918767507) 100%);
+}
