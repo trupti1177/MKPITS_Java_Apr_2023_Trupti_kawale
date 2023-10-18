@@ -1,0 +1,15 @@
+Assignment 1: Basic View Creation
+Create a view named film_titles that displays the film_id, title, and release_year for all films in the Sakila database.
+
+Assignment 2: Complex View with Joins
+Create a view named customer_rental_info that displays the customer's first name, last name, email, rental date, and film title for each rental transaction in the Sakila database. Utilize appropriate joins to obtain the necessary information.
+
+Assignment 3: Aggregated View
+Create a view named monthly_rental_stats that displays the month, year, and the total number of rentals for each month in the rental table.
+
+Assignment 4: Conditional View
+Create a view named new_release_films that displays the film_id, title, and release_year for films released after the year 2005.
+
+Assignment 5: Hierarchical View
+Create a hierarchical view named film_actors_hierarchy that displays the film title and the actors for each film, organized in a hierarchical structure, using the film and actor tables.
+0 comments o
