@@ -1,0 +1,62 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+body{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=11183e&c2=4fbaa6&gt=l&gd=dtl
+*/
+background: #11183E;
+background: linear-gradient(135deg, #531253d7, #4fbaa6);
+}
+.img1{
+    border-radius: 60px;
+    position: absolute;
+    top: 130px;
+    left: 140px;
+}
+.img2{
+    border-radius: 80px;
+    position: absolute;
+    top: 150px;
+    left: 540px;
+}
+.img3{
+    border-radius: 40px;
+    position: relative;
+    top: 150px;
+    left: 170px;
+}
+.img4{
+    border-radius: 100px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.div1{
+    width: 550px;
+    height: 550px;
+    background-image: url(graph1.png);
+    background-repeat: no-repeat;
+}
+.div2{
+    width: 500px;
+    height: 500px;
+    background-image: url(graph2.png);
+    background-repeat: no-repeat;
+}
+.div3{
+    width: 500px;
+    height: 500px;
+    background-image: url(graph3.png);
+    background-repeat: no-repeat;
+}
+.div4{
+    width: 500px;
+    height: 500px;
+    background-image: url(graph4.png);
+    background-repeat: no-repeat;
+}

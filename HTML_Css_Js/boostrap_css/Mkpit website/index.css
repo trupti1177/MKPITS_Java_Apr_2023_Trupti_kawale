@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: rgb(238, 243, 243);
+background: radial-gradient(circle, rgb(236, 243, 243) 0%, rgb(240, 239, 243) 100%);
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 20px;
+    color: black;
+}
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 700px;
+}
+.carousel{
+    margin-top: 0px;
+}
+.card-img-top{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+.p1{
+    text-align: center;
+}
+a:hover{
+    background-color: #92c0c0;
+    border-radius: 30%;
+    box-shadow: 3px 5px 4px;
+
+
+}
+.company{
+    box-shadow: 4px 5px 3px saddlebrown;
+}

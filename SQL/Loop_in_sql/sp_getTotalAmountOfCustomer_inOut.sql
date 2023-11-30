@@ -1,4 +1,3 @@
-@@ -0,0 +1,11 @@
 DELIMITER //
 CREATE PROCEDURE sp_getTotalAmountOfCustomer_inOut(in cust_id int, out total_amount int)
 BEGIN

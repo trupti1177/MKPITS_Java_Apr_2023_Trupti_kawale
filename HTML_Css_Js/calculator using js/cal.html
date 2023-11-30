@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator using javascript</title>
+    
+</head>
+<body>
+    <h3>Calculator using javascript</h3>
+    <input type="number" id="input1" placeholder="Enter number"><br><br>
+    <input type="number" id="input2" placeholder="Enter number"> <br><br>
+    <button onclick="add()"> + </button>
+    <button onclick="subtract()"> - </button>
+    <button onclick="multiply()"> * </button>
+    <button onclick="division()"> / </button>
+    <button onclick="modulo()"> % </button>
+    <div>
+        <h3 id="result"></h3>
+    </div>
+
+    <script>
+        function add(){
+            let a= parseInt(document.getElementById('input1').value);
+            let b= parseInt(document.getElementById('input2').value);
+            let c = a + b;
+            document.getElementById('result').innerHTML=c;
+        }
+        function subtract(){
+            let a= parseInt(document.getElementById('input1').value);
+            let b= parseInt(document.getElementById('input2').value);
+            let c = a - b;
+            document.getElementById('result').innerHTML=c;
+        }
+        function multiply(){
+            let a= parseInt(document.getElementById('input1').value);
+            let b= parseInt(document.getElementById('input2').value);
+            let c = a * b;
+            document.getElementById('result').innerHTML=c;
+        }
+        function division(){
+            let a= parseInt(document.getElementById('input1').value);
+            let b= parseInt(document.getElementById('input2').value);
+            let c = a / b;
+            document.getElementById('result').innerHTML=c;
+        }
+        function modulo(){
+            let a= parseInt(document.getElementById('input1').value);
+            let b= parseInt(document.getElementById('input2').value);
+            let c = a % b;
+            document.getElementById('result').innerHTML=c;
+        }
+        
+        
+    </script>
+      
+</body>
+</html>

@@ -7,6 +7,8 @@
     <list default="true" id="13834c70-193e-49b1-a5e1-0255e8aac269" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../Javascript/Js_output/Writing_Into_an_alertbox_using_window.alert().html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/Js_output/Writing_Into_an_alertbox_using_window.alert().html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Javascript/Js_output/Writing_into_anHTML_element,using innerHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/Js_output/Writing_into_anHTML_element,using innerHTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Javascript/Js_variable/operation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Javascript/Js_variable/operation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inheritance/Shape/Shape1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/Shape/Shape1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1687483239462</updated>
       <workItem from="1687483240927" duration="8543000" />
-      <workItem from="1687498049726" duration="737000" />
+      <workItem from="1687498049726" duration="2512000" />
+      <workItem from="1687650440883" duration="678000" />
     </task>
     <servers />
   </component>
